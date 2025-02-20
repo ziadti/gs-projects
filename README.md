@@ -8,29 +8,29 @@ An interactive 3D Rubik's cube simulator capable of simulating the basic face tu
 
 <img src="https://i.imgur.com/4tnKD4i.gif" width="600">
 
-## [Rubik's Cube Solver]()
+## [Rubik's Cube Solver](https://github.com/ziadti/gs-projects/blob/main/rubiks_cube_solver.md)
 
 A Rubik's cube solver that uses the uses the [Old Pochmann method](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-blindfolded-tutorial/), a purely algorithmic intuitionless method that only solves one piece at a time designed for blindfolded solving. The lack of reliance on intuition makes this method easy to implement algorithmically with the drawback that the solutions result in a very long sequence of moves with an average that's over 300. (For reference, the [beginner's method](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/) has an aaverage number of moves of ~110, [CFOP](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/) has an average number of moves of ~55, [Roux](https://ruwix.com/the-rubiks-cube/different-rubiks-cube-solving-methods/roux-method/) has an average number of moves of ~45.)
 
-## [Chess Board Editor]()
+## [Chess Board Editor](https://github.com/ziadti/gs-projects/blob/main/chessboard_editor.md)
 
 A simple chess board editor that allows to move pieces across the board. It doesn’t validate the moves, it's just a basic drag-and-drop interface for setting up positions.
 
-## [Universal Turing Machine (UTM)]()
+## [Universal Turing Machine (UTM)](https://github.com/ziadti/gs-projects/blob/main/utm_simulator.md)
 
 A [Universal Turing Machine](https://en.wikipedia.org/wiki/Universal_Turing_machine) simulator that takes a list of transitions describing the behavior of a Turing machine, an input string, and up to three tapes, then processes it step by step. It allows stepping forward and backward, as well as resetting to the initial state. It also supports the wildcard symbol `*`, which can be used to match any symbol when reading from the tape or to write the same symbol that was read in the current transition.
 
-## [Random Access Machine (RAM)]()
+## [Random Access Machine (RAM[)]()](https://github.com/ziadti/gs-projects/blob/main/ram_simulator.md)
 
 A [RA-machine](https://en.wikipedia.org/wiki/Random-access_machine) simulator. It supports the instructions: 𝚁𝙴𝙰𝙳, 𝙻𝙾𝙰𝙳, 𝚂𝚃𝙾𝚁𝙴, 𝙰𝙳𝙳, 𝚂𝚄𝙱, 𝙼𝚄𝙻, 𝙳𝙸𝚅, 𝚆𝚁𝙸𝚃𝙴, 𝙹𝚄𝙼𝙿, 𝙹𝙶𝚃, 𝙹𝙶𝚉, 𝙹𝙻𝚃, 𝙹𝙻𝚉, 𝙷𝙰𝙻𝚃. It also supports direct, indirect and immediate addressing for the instructions for which it makes sense.
 
 
 
-## [Light Beam Simulator (AoC 2023 Day 16)]()
+## [Light Beam Simulator (AoC 2023 Day 16)](https://github.com/ziadti/gs-projects/blob/main/light_beam_simulator.md)
 
 Simulates a beam of light being reflected across a 20x20 grid. It's a simulation of the first part of the [16th puzzle](https://adventofcode.com/2023/day/16) of Advent of Code 2023.
 
-## [Warehouse Robot (AoC 2024 Day 15)]()
+## [Warehouse Robot (AoC 2024 Day 15)](https://github.com/ziadti/gs-projects/blob/main/warehouse_robot.md)
 
 Simulates a robot moving across a grid, pushing boxes and running into obstacles. It's a simulation of the first part of the [15th puzzle](https://adventofcode.com/2024/day/15) of Advent of Code 2024.
 
