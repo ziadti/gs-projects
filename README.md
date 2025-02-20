@@ -37,8 +37,9 @@ Simulates a robot moving across a grid, pushing boxes and running into obstacles
 
 
 
+<hr>
 
-<em><sup>* Shout out to <a href="https://docs.google.com/spreadsheets/d/1JoUVSSEYQUJrUvvszhElaD2T7PuZcC9GOU7uc3zp178/">Astral</a>, 
+<em><sup>Shout out to <a href="https://docs.google.com/spreadsheets/d/1JoUVSSEYQUJrUvvszhElaD2T7PuZcC9GOU7uc3zp178/">Astral</a>, 
 <a href="https://www.reddit.com/user/AdministrativeGift15/">Shay</a>, 
 <a href="https://aliafriend.com/">Ali</a>, 
 <a href="https://www.cooltables.online/">Max</a>, and 
