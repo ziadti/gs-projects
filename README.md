@@ -18,7 +18,7 @@ A simple chess board editor that allows to move pieces across the board. It does
 
 ## [Universal Turing Machine (UTM)]()
 
-A Universal Turing Machine simulator that takes a Turing machine transition description, an input string, and up to three tapes, then processes it step by step. It allows stepping forward and backward, as well as resetting to the initial state. It also supports the wildcard symbol `*`, which can be used to match any symbol when reading from the tape or to write back the same symbol that was read in the current transition.
+A Universal Turing Machine simulator that takes a list of transitions describing the behavior of a Turing machine, an input string, and up to three tapes, then processes it step by step. It allows stepping forward and backward, as well as resetting to the initial state. It also supports the wildcard symbol `*`, which can be used to match any symbol when reading from the tape or to write back the same symbol that was read in the current transition.
 
 ## [Random Access Machine (RAM)]()
 
