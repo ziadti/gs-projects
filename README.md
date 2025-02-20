@@ -4,7 +4,7 @@ This is a repo with a collection of my formula only projects made entirely in Go
 
 ## [3D Rubik's Cube Simulator](https://github.com/ziadti/gs-projects/blob/main/rubiks_cube_simulator.md)
 
-An interactive 3D Rubik's cube simulator capable of simulating the basic face turns and slice moves with a reset button to reset the cube to its initial (solved) state. I have an [Excel version](https://lnkd.in/dS5K3gEn) capable of simulating all the 54 possible moves, including direct double moves, wide moves and cube rotations (see 'main') but I'm too lazy to port it to Google Sheets.
+An interactive 3D Rubik's cube simulator capable of simulating the basic face turns and slice moves with a reset button to reset the cube to its initial (solved) state. I have an [Excel version](https://lnkd.in/dS5K3gEn) capable of simulating all the [54 possible moves](https://solvethecube.com/notation), including direct double moves, wide moves and cube rotations (see 'main') but I'm too lazy to port it to Google Sheets.
 
 <img src="https://i.imgur.com/4tnKD4i.gif" width="600">
 
