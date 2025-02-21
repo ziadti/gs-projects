@@ -1,4 +1,4 @@
-# [K-Tapes Univesal Turing Machine](https://docs.google.com/spreadsheets/d/155Oy3Tj-aVHUmOCx8cMOMZB7qcaxSYQodoDwVqXcbgE/)
+# [K-Tapes Universal Turing Machine](https://docs.google.com/spreadsheets/d/155Oy3Tj-aVHUmOCx8cMOMZB7qcaxSYQodoDwVqXcbgE/)
 
 This project was inspired by [this](https://turingmachinesimulator.com/) but it also supports the usage of the wildcard symbol `*` which works as follows:
 
