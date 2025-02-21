@@ -23,19 +23,23 @@ A simple chess board editor that allows to move pieces across the board. It does
 
 A [Universal Turing Machine](https://en.wikipedia.org/wiki/Universal_Turing_machine) simulator that takes a list of transitions describing the behavior of a Turing machine, an input string, and up to three tapes, then processes it step by step. It allows stepping forward and backward, as well as resetting to the initial state. It also supports the wildcard symbol `*`, which can be used to match any symbol when reading from the tape or to write a symbol that was read in the current transition.
 
+<img src="https://i.imgur.com/3OJr4wb.gif" width="700">
+
 ## [Random Access Machine (RAM)](https://github.com/ziadti/gs-projects/blob/main/ram_simulator.md)
 
 A [RA-machine](https://en.wikipedia.org/wiki/Random-access_machine) simulator. It supports the instructions: 𝚁𝙴𝙰𝙳, 𝙻𝙾𝙰𝙳, 𝚂𝚃𝙾𝚁𝙴, 𝙰𝙳𝙳, 𝚂𝚄𝙱, 𝙼𝚄𝙻, 𝙳𝙸𝚅, 𝚆𝚁𝙸𝚃𝙴, 𝙹𝚄𝙼𝙿, 𝙹𝙶𝚃, 𝙹𝙶𝚉, 𝙹𝙻𝚃, 𝙹𝙻𝚉, 𝙷𝙰𝙻𝚃. It also supports direct, indirect and immediate addressing for the instructions for which it makes sense.
 
-
+<img src="https://i.imgur.com/3gOGk66.gif" height="600">
 
 ## [Light Beam Simulator (AoC 2023 Day 16)](https://github.com/ziadti/gs-projects/blob/main/light_beam_simulator.md)
 
-Simulates a beam of light being reflected across a 20x20 grid. It's a simulation of the first part of the [16th puzzle](https://adventofcode.com/2023/day/16) of Advent of Code 2023.
+Simulates a beam of light being reflected across a 20x20 grid with mirrors. It's a simulation of the first part of the [16th puzzle of Advent of Code 2023](https://adventofcode.com/2023/day/16).
+
+<img src="https://i.imgur.com/rjilLf2.gif" width="600">
 
 ## [Warehouse Robot (AoC 2024 Day 15)](https://github.com/ziadti/gs-projects/blob/main/warehouse_robot.md)
 
-Simulates a robot moving across a grid, pushing boxes and running into obstacles. It's a simulation of the first part of the [15th puzzle](https://adventofcode.com/2024/day/15) of Advent of Code 2024.
+Simulates a robot moving across a grid, pushing boxes and running into obstacles. It's a simulation of the first part of the [15th puzzle of Advent of Code 2024](https://adventofcode.com/2024/day/15).
 
 
 <hr>
