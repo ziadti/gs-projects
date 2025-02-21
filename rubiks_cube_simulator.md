@@ -38,7 +38,7 @@ Then, I created the actual 3D cube that mirrors the calculated values from the p
 
 <img src="https://i.imgur.com/rKoM3Dt.png" height="500">
 
-Finally, I made the interface to interact with the cube which is just a set of checkboxes associated with each of possible moves + the reset button to reset the cube to its initial state. I used iterative calculation to store the history of the movements.
+Finally, I made the interface to interact with the cube which is just a set of checkboxes associated with each of the possible moves + the reset button to reset the cube to its initial state. I used iterative calculation to store the history of the movements.
 
 This is the formula I used in this step:
 
