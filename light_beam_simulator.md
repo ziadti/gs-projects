@@ -42,7 +42,7 @@ This simulator is for the most part powered by this formula, which returns the l
  ))
 ```
 
-This formula just returns the coordinates, to higlight them I used an auxiliary formula:
+The formula above returns the coordinates, to higlight the values relative to those coordinates I used the following auxiliary formula:
 
 ```py
 =ARRAYFORMULA(COUNTIF(backend!A1:A,COMPLEX(SEQUENCE(20),SEQUENCE(1,20))))
