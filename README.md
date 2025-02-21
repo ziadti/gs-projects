@@ -1,4 +1,4 @@
-# Google Sheets Formula Only Projects
+# Google Sheets Projects
 
 This is a repo with a collection of my formula only projects made entirely in Google Sheets.
 
@@ -10,7 +10,7 @@ An interactive 3D Rubik's cube simulator capable of simulating the basic face tu
 
 ## [Rubik's Cube Solver](https://github.com/ziadti/gs-projects/blob/main/rubiks_cube_solver.md)
 
-A Rubik's cube solver that uses the uses the [Old Pochmann method](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-blindfolded-tutorial/), a purely algorithmic intuitionless method that only solves one piece at a time designed for blindfolded solving. The lack of reliance on intuition makes this method easy to implement algorithmically with the drawback that the solutions result in a very long sequence of moves with an average that's over 300. (For reference, the [beginner's method](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/) has an aaverage number of moves of ~110, [CFOP](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/) has an average number of moves of ~55, [Roux](https://ruwix.com/the-rubiks-cube/different-rubiks-cube-solving-methods/roux-method/) has an average number of moves of ~45.)
+A Rubik's cube solver that uses the [Old Pochmann method](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-blindfolded-tutorial/), a purely algorithmic intuitionless method that only solves one piece at a time designed for blindfolded solving. The lack of reliance on intuition makes this method easy to implement algorithmically with the drawback that the solutions result in a very long sequence of moves with an average that's over 300. (For reference, the [beginner's method](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/) has an aaverage number of moves of ~110, [CFOP](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/) has an average number of moves of ~55, [Roux](https://ruwix.com/the-rubiks-cube/different-rubiks-cube-solving-methods/roux-method/) has an average number of moves of ~45.)
 
 <img src="https://i.sstatic.net/iR5Fk.gif" width="700">
 
