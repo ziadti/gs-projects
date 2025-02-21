@@ -1,4 +1,4 @@
-# [Light Beam Simulator](https://docs.google.com/spreadsheets/d/1znNMAntjSUPOPFdG3pLMWOUQ6GhkHyLCTgPaLriuYrA/)
+# [Light Beam Simulator](https://docs.google.com/spreadsheets/d/1K_7DQ7b_dtYSsnGpCcr9c8ph5nwwDXfSoPpEWslQHL4/)
 
 This is a simulation of [Day 16 of Advent of Code 2023](https://adventofcode.com/2023/day/16). 
 
