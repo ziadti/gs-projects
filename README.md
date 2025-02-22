@@ -29,7 +29,7 @@ A [Universal Turing Machine](https://en.wikipedia.org/wiki/Universal_Turing_mach
 
 A [RA-machine](https://en.wikipedia.org/wiki/Random-access_machine) simulator. It supports the instructions: 𝚁𝙴𝙰𝙳, 𝙻𝙾𝙰𝙳, 𝚂𝚃𝙾𝚁𝙴, 𝙰𝙳𝙳, 𝚂𝚄𝙱, 𝙼𝚄𝙻, 𝙳𝙸𝚅, 𝚆𝚁𝙸𝚃𝙴, 𝙹𝚄𝙼𝙿, 𝙹𝙶𝚃, 𝙹𝙶𝚉, 𝙹𝙻𝚃, 𝙹𝙻𝚉, 𝙷𝙰𝙻𝚃. It also supports direct, indirect and immediate addressing for the instructions for which it makes sense.
 
-<img src="https://i.imgur.com/3gOGk66.gif" height="600">
+<img src="https://i.imgur.com/3gOGk66.gif">
 
 ## [Light Beam Simulator (AoC 2023 Day 16)](https://github.com/ziadti/gs-projects/blob/main/light_beam_simulator.md)
 
