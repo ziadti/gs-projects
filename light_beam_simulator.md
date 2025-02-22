@@ -8,7 +8,7 @@ This is a simulation of [Day 16 of Advent of Code 2023](https://adventofcode.com
 
 ## How I made it
 
-This simulator is for the most part powered by this formula, which returns the list of coordinates visited by the beam of light. It works by keeping track of the positions to visit with their relative directions (up, down, left, right), starting from the top left and moving right. The list of positions is updated at each iteration based on the current value of the grid (`/`, `\`, `|`, `-`, `.`).
+This simulator is for the most part powered by the formula below, which returns the list of coordinates visited by the beam of light. It works by keeping track of the positions to visit with their relative directions (up, down, left, right), starting from the top left and moving right. The list of positions is updated at each iteration based on the current value of the grid (`/`, `\`, `|`, `-`, `.`).
 
 ```py
 =ARRAYFORMULA(LET(
