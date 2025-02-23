@@ -1,6 +1,6 @@
 # [K-Tapes Universal Turing Machine](https://docs.google.com/spreadsheets/d/155Oy3Tj-aVHUmOCx8cMOMZB7qcaxSYQodoDwVqXcbgE/)
 
-This project was inspired by [this](https://turingmachinesimulator.com/) but it also supports the usage of the wildcard symbol `*`.
+A [Universal Turing Machine](https://en.wikipedia.org/wiki/Universal_Turing_machine) simulator that takes the description of a Turing machine, an input string, and up to three tapes, then processes it step by step. It allows stepping forward and backward, as well as resetting to the initial state. It also supports the wildcard symbol `*`, which can be used to match any symbol when reading from the tape or to write a symbol that was read in the current transition.
 
 <img src="https://github.com/user-attachments/assets/426e82d7-2393-412b-9f85-ab8519ab73e0" height="390">
 
