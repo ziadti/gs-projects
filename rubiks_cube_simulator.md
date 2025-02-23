@@ -1,8 +1,12 @@
 # [Rubik's Cube Simulator](https://docs.google.com/spreadsheets/d/1znNMAntjSUPOPFdG3pLMWOUQ6GhkHyLCTgPaLriuYrA/)
 
+An interactive 3D Rubik's cube simulator capable of simulating the basic face turns and slice moves with a reset button to reset the cube to its initial (solved) state. I have an [Excel version](https://onedrive.live.com/:x:/g/personal/956C2B4CF15D3B49/EQ0nzTycAYdJvFR-DOCw6TABSoDPTOKhgt3rRck_owBrgw?resid=956C2B4CF15D3B49!s3ccd270d019c4987bc547e0ce0b0e930&ithint=file%2Cxlsx&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy85NTZjMmI0Y2YxNWQzYjQ5L0VRMG56VHljQVlkSnZGUi1ET0N3NlRBQlNvRFBUT0toZ3QzclJja19vd0JyZ3c) capable of simulating all the [54 possible moves](https://solvethecube.com/notation), including direct double turns, wide turns and cube rotations but I'm too lazy to port it to Google Sheets.
+
 ## Demo
 
-<img src="https://i.imgur.com/4tnKD4i.gif" width="600">
+
+https://github.com/user-attachments/assets/5dbb55f2-1963-4a73-b65d-110c2837185f
+
 
 ## How I made it
 
