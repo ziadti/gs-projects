@@ -10,7 +10,7 @@ https://github.com/user-attachments/assets/2a609437-b373-4a3f-bd87-1fb1759f898a
 
 There are two major steps involved in this project. First, we map the colors of the input scramble to their numeric value while adjusting the orientation so that the white face is in front and the green face is on top.
 
-![image](https://github.com/user-attachments/assets/8a29a34b-d741-4dc3-9170-c147eba941bb)
+![Untitled](https://github.com/user-attachments/assets/ca4f0856-6120-4b75-9aa5-25294d2568cf)
 
 Where this is the reference cube
 
