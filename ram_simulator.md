@@ -2,9 +2,9 @@
 
 _* Note that this was not extensively tested so it's likely that there are bugs._
 
-This project was inspired by [this simulator](https://random-access-machine-emulator.netlify.app/). I made my own version to practice and because I didn't like that it didn't show the current state of the memory tape. 
+A [RA-machine](https://en.wikipedia.org/wiki/Random-access_machine) simulator. It supports the instructions: 𝚁𝙴𝙰𝙳, 𝙻𝙾𝙰𝙳, 𝚂𝚃𝙾𝚁𝙴, 𝙰𝙳𝙳, 𝚂𝚄𝙱, 𝙼𝚄𝙻, 𝙳𝙸𝚅, 𝚆𝚁𝙸𝚃𝙴, 𝙹𝚄𝙼𝙿, 𝙹𝙶𝚃, 𝙹𝙶𝚉, 𝙹𝙻𝚃, 𝙹𝙻𝚉, 𝙷𝙰𝙻𝚃. It also supports direct, indirect and immediate addressing for the instructions for which it makes sense.
 
-It supports the following instructions:
+This project was inspired by [this simulator](https://random-access-machine-emulator.netlify.app/). I made my own version to practice and because I didn't like that it didn't show the current state of the memory tape. 
 
 <img src="https://github.com/user-attachments/assets/1a3366a2-5751-48df-aa2e-974c3db1372c" height="400">
 
