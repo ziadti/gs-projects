@@ -1,22 +1,24 @@
 # [K-Tapes Universal Turing Machine](https://docs.google.com/spreadsheets/d/155Oy3Tj-aVHUmOCx8cMOMZB7qcaxSYQodoDwVqXcbgE/)
 
-This project was inspired by [this](https://turingmachinesimulator.com/) but it also supports the usage of the wildcard symbol `*` which works as follows:
+This project was inspired by [this](https://turingmachinesimulator.com/) but it also supports the usage of the wildcard symbol `*`.
 
-![image](https://github.com/user-attachments/assets/467021b8-4ce5-43e9-b624-1d895d362d95)
+<img src="https://github.com/user-attachments/assets/426e82d7-2393-412b-9f85-ab8519ab73e0" height="390">
+
 
 ## Demo
 
+Example of a Turing machine that increments a decimal number by 1
+
+https://github.com/user-attachments/assets/a8d4bbfa-3f29-4e4c-a164-9c45498dc5b2
+
 Example of a Turing machine that swaps every two characters
 
-![swap every two](https://i.imgur.com/3OJr4wb.gif)
+https://github.com/user-attachments/assets/7b1b7580-d32d-46cb-8b93-a8489ae1c2a4
 
-Example of a Turing machine that increments a decimal number by 1
- 
-![decimal increment](https://i.imgur.com/JU2muOU.gif)
 
 ## How I made it
 
-Below is the formula that simulates the machine. It's a terrible formula because I began this project with the idea of only simulating a 1 tape Turing machine but then I changed my mind and wanted to expand it to work with up to 3 tapes. Instead of redesigning everything from scratch, I copy-pasted a bunch of stuff which resulted in this massive mess (maybe one day I will refactor it).
+Below is the formula that simulates the machine. It's a terrible formula because I began this project with the idea of only simulating a 1 tape Turing machine but then I changed my mind and wanted to expand it to work with up to 3 tapes.
 
 ```py
 =ARRAYFORMULA(LET(
