@@ -1,10 +1,12 @@
 # [Light Beam Simulator](https://docs.google.com/spreadsheets/d/1K_7DQ7b_dtYSsnGpCcr9c8ph5nwwDXfSoPpEWslQHL4/)
 
-This is a simulation of [Day 16 of Advent of Code 2023](https://adventofcode.com/2023/day/16). 
+Simulates a beam of light being reflected across a 20x20 grid with mirrors.
+
+It's a simulation of the first part of the [16th puzzle of Advent of Code 2023](https://adventofcode.com/2023/day/16).
 
 ## Demo
 
-<img src="https://i.imgur.com/rjilLf2.gif" width="600">
+https://github.com/user-attachments/assets/09006660-4c28-416d-aa64-b55574810f73
 
 ## How I made it
 
