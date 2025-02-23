@@ -1,6 +1,8 @@
 # [Warehouse Robot](https://docs.google.com/spreadsheets/d/1jW-FtCmz-W50WTalcnl8eSsYHx3QgwzC7LuZvQJ9OAE/)
 
-Simulates a robot moving across a grid, pushing boxes and running into obstacles. It's a simulation of the first part of the [15th puzzle of Advent of Code 2024](https://adventofcode.com/2024/day/15).
+Simulates a robot moving across a grid, pushing boxes and running into obstacles.
+
+It's a simulation of the first part of the [15th puzzle of Advent of Code 2024](https://adventofcode.com/2024/day/15).
 
 ## Demo
 
