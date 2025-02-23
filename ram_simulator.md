@@ -6,13 +6,13 @@ This project was inspired by [this simulator](https://random-access-machine-emul
 
 It supports the following instructions:
 
-![image](https://github.com/user-attachments/assets/1a3366a2-5751-48df-aa2e-974c3db1372c)
+<img src="https://github.com/user-attachments/assets/1a3366a2-5751-48df-aa2e-974c3db1372c" height="400">
 
 ## Demo
 
-Example of a program that calculates n^n with n = 4.
+Example of a program that calculates sqrt(n) with n = 16.
 
-<img src="https://i.imgur.com/3gOGk66.gif" width="600">
+https://github.com/user-attachments/assets/ef1062a4-54dd-436b-9b7b-e3f356bc67bf
 
 ## How I made it
 
