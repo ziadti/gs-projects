@@ -83,7 +83,7 @@ Formula for the logic of the stack movements:
 ```
 
 
-Formula for keeping track of the history of the movements:
+Formula for user interaction and for keeping track of the history of the movements. This formula uses iterative calculation. 
 
 ```py
 =ARRAYFORMULA(LET(
