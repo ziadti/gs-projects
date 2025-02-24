@@ -56,28 +56,29 @@ Formula for the logic of the stack movements:
      REDUCE(state,SEQUENCE(ROWS(moves)),LAMBDA(state,i,LET(
        A,INDEX(state,,1),B,INDEX(state,,2),C,INDEX(state,,3),
        val_A,--IFERROR(SINGLE(TOCOL(IFNA(REGEXEXTRACT(A,"\d+")),1)),9),
-    val_B,--IFERROR(SINGLE(TOCOL(IFNA(REGEXEXTRACT(B,"\d+")),1)),9),
-    val_C,--IFERROR(SINGLE(TOCOL(IFNA(REGEXEXTRACT(C,"\d+")),1)),9),
-       from,INDEX(from_,i),to,INDEX(to_,i),res,IF(from = "A", 
-       IF(to = "B", 
-         IF(val_A < val_B, MOVE(state, "A","B"), state),
-         IF(val_A < val_C, MOVE(state, "A","C"), state)
-       ),
-       IF(from = "B", 
-         IF(to = "A", 
-           IF(val_B < val_A, MOVE(state, "B","A"), state),
-           IF(val_B < val_C, MOVE(state, "B","C"), state)
+       val_B,--IFERROR(SINGLE(TOCOL(IFNA(REGEXEXTRACT(B,"\d+")),1)),9),
+       val_C,--IFERROR(SINGLE(TOCOL(IFNA(REGEXEXTRACT(C,"\d+")),1)),9),
+       from,INDEX(from_,i),to,INDEX(to_,i),
+       res, IF(from = "A", 
+         IF(to = "B", 
+           IF(val_A < val_B, MOVE(state, "A","B"), state),
+           IF(val_A < val_C, MOVE(state, "A","C"), state)
          ),
-         IF(from = "C", 
-           IF(to = "A",
-             IF(val_C < val_A, MOVE(state, "C","A"), state),
-             IF(val_C < val_B, MOVE(state, "C","B"), state)
+         IF(from = "B", 
+           IF(to = "A", 
+             IF(val_B < val_A, MOVE(state, "B","A"), state),
+             IF(val_B < val_C, MOVE(state, "B","C"), state)
            ),
-           state
+           IF(from = "C", 
+             IF(to = "A",
+               IF(val_C < val_A, MOVE(state, "C","A"), state),
+               IF(val_C < val_B, MOVE(state, "C","B"), state)
+             ),
+             state
+           )
          )
-       )
-    ),IF(from=to,state,res)))),
-    IFNA(ans,state)
+      ), IF(from = to, state, res)))),
+    IFNA(ans, state)
  ))
 ```
 
