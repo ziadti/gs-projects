@@ -21,7 +21,8 @@ Formula for the optimal solution:
              from & to &
              TOH(TOH, n-1, aux, to, from)
            )),
-   TOCOL(TOH(TOH, n_discs, "A", "C", "B"), 3))
+   TOH(TOH, n_discs, "A", "C", "B")
+ )
 ```
 
 Formula for the logic of the stack movements:
